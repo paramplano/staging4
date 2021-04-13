@@ -1,0 +1,28 @@
+/*
+Theme Name: Newspaper Child
+Theme URI: http://example.com/twenty-fifteen-child/
+description: >-
+  Newspaper Child Theme
+Author: John Doe
+Author URI: http://example.com
+Template: Newspaper
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: Newspaper-child
+*/
+
+@import url("../Newspaper/style.css");
+
+
+.td-header-desktop-wrap{ margin-top:-1px;}
+
+#menu-footer-about li{ width:100%; list-style-type:disc; color:#fff; margin-left:20px;}
+
+#menu-footer-about  li > a{ color:#fff; padding: 0 5px;}
+
+
+#menu-footer-policies li{ width:100%; list-style-type:disc; color:#fff; margin-left:20px;}
+
+#menu-footer-policies  li > a{ color:#fff; padding: 0 5px;}
